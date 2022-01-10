@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/todoList.css';
 
 interface TodoListProps {
   items: { id: string; text: string }[];
